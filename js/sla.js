@@ -1,4 +1,4 @@
-alert("faça apenas duas operações por vez")
+alert("faça apenas uma operação por vez")
 
 const trabalho = document.querySelector(".visor")
 const display = document.querySelector(".mostra")
