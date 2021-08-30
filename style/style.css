@@ -1,0 +1,41 @@
+form{
+	display: flex;
+	position: absolute;
+
+	width: 30vw; 
+
+	left:50%;
+	top:50%;
+
+	transform: translate(-50%,-50%);
+
+	text-align: center; }
+
+.calc{
+	background-color:rgba(0, 0, 0, 0.1);
+	padding:15px;
+	border-radius: 10px; }
+
+#visor{
+	background-color: white;
+	width: 19vw; }
+
+.menos{
+	text-transform: 10px;
+
+}
+
+.nunber, .menos,.visor, .mostra {
+	background-color: gray;
+	border:none;
+	border-radius: 10px;
+	padding: 2vw;
+	margin:5px; }
+
+.mostra{
+	position: absolute;
+}
+
+.nunber:hover{
+	background-color: black;
+	color:white; }
